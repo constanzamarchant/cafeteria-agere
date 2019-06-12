@@ -100,8 +100,9 @@
   text-decoration-style: none;
   color: #989797;
 }
-.navbar_nav li:hover {
+.navbar_nav li a:hover {
   color: #000000;
+  text-decoration-style: none;
 }
 .navbar_nav__container {
   width: 100%;
@@ -162,14 +163,113 @@
 .main_header__container {
   clear: left;
 }
-.main_header__img {
-  background-image: url("../images/img-1.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
-  padding-top: 5rem;
+.main_header img {
+  z-index: -1;
 }
+.main_header__title {
+  float: right;
+  position: relative;
+  top: -400px;
+  right: 220px;
+}
+.main_header__title h2 {
+  font-family: "PT Mono", monospace;
+  line-height: 70px;
+  font-size: 70px;
+}
+.main_header__title p {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  padding-top: 0.2rem;
+}
+.main_header__numbers {
+  position: relative;
+  float: left;
+  top: -145px;
+  left: 410px;
+  z-index: 1;
+  background-color: white;
+  padding-top: 1.5rem;
+  font-family: "PT Mono", monospace;
+}
+.main_header__numbers p {
+  line-height: 7px;
+  font-family: "Roboto", sans-serif;
+}
+.main_header__numbers h3 {
+  font-size: 40px;
+}
+.main_header__numbers--one {
+  display: inline-block;
+  padding-left: 2rem;
+}
+.main_header__numbers--two {
+  display: inline-block;
+  padding-left: 2rem;
+}
+.main_header__numbers--three {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.main_header__squares--red {
+  width: 150px;
+  height: 150px;
+  float: right;
+  position: relative;
+  top: -60px;
+  right: 170px;
+  background-color: #E4572E;
+  z-index: 2;
+}
+.main_header__squares--yellow {
+  width: 150px;
+  height: 150px;
+  float: right;
+  position: relative;
+  top: -45px;
+  right: 5px;
+  background-color: #EACB31;
+}
+.main_header__arrow {
+  color: #FFF;
+  padding: 2.3rem;
+}
+
+.service__container {
+  clear: left;
+  top: -150px;
+  left: 80px;
+  position: relative;
+  float: left;
+  z-index: 1;
+}
+.service__title h4 {
+  font-size: 30px;
+  font-family: "PT Mono", monospace;
+}
+.service__text p {
+  width: 25%;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+
+.service_contact__container {
+  background-color: #3C91E6;
+  width: 43%;
+  padding: 6.7rem;
+  position: relative;
+  z-index: 2;
+  left: 410px;
+}
+.service_contact__mapa {
+  top: -356px;
+  position: relative;
+  z-index: 2;
+  left: 392px;
+}
+
 /*
  * 
  * Esta carpeta fue creada para componentes o módulos pequeños como por ejemplo: 

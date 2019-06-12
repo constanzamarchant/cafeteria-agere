@@ -6,9 +6,10 @@
 		color: $spanish-gray;
 	}
 
-	li{
+	li a{
 		&:hover{
 			color: $black;
+			text-decoration-style: none;
 		}
 	}
 	

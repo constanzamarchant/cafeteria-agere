@@ -1,0 +1,72 @@
+.service{
+	&__container{
+		clear: left;
+	    top: -150px;
+	    left: 80px;
+	    position: relative;
+	    float: left;
+	    z-index: 1;
+	}
+
+	&__title{
+		h4 {
+			font-size: $x-large;
+			font-family: $mono;
+		}
+	}
+
+	&__text{
+
+		p {
+			width: 25%;
+			font-size:$large;
+			font-family: $roboto;
+			line-height: 20px;
+		}
+	}
+}
+
+.service_contact{
+	&__container{
+	background-color: #3C91E6;
+    width: 43%;
+    padding: 6.7rem;
+    position: relative;
+    z-index: 2;
+    left: 410px;
+    }
+
+    &__mapa{
+    width: 200px;
+   	background-image: url('../images/img-4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+   	top: -626px;
+    position: relative;
+    z-index: 2;
+    left: 940px;
+	}
+
+	&__coffeebeans{
+	background-image: url('../images/img-3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+   	top: -626px;
+    position: relative;
+    z-index: 3;
+    left: 940px;
+	}
+
+	&__coffeedrink{
+   	background-image: url('../images/img-2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+   	top: -626px;
+    position: relative;
+    z-index: 2;
+    left: 940px;
+	}
+}
