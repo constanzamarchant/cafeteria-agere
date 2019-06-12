@@ -93,6 +93,83 @@
  * @since 1.0
  *
  */
+.navbar_nav {
+  margin: 1em;
+}
+.navbar_nav a {
+  text-decoration-style: none;
+  color: #989797;
+}
+.navbar_nav li:hover {
+  color: #000000;
+}
+.navbar_nav__container {
+  width: 100%;
+}
+.navbar_nav__link {
+  background: url("../images/logo.png") no-repeat center/100% auto transparent;
+  height: 98.5px;
+  width: 40px;
+  display: block;
+  text-indent: -10000000px;
+  float: left;
+  margin-left: 4rem;
+}
+.navbar_nav__menu {
+  float: left;
+  font-family: "PT Mono", monospace;
+}
+.navbar_nav__list {
+  list-style: none;
+  display: inline-block;
+  padding-top: 2rem;
+}
+.navbar_nav__item {
+  padding-left: 2rem;
+  display: inline-block;
+}
+.navbar_nav__buttons {
+  float: right;
+  top: 1.5rem;
+  position: relative;
+  right: 3.5rem;
+}
+.navbar_nav__buttons--primary {
+  background: transparent;
+  color: #989797;
+  font-family: "PT Mono", monospace;
+  margin-right: 1.5rem;
+  font-size: 18px;
+  font-weight: 300;
+}
+.navbar_nav__buttons--primary:hover {
+  background-color: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+}
+.navbar_nav__buttons--secondary {
+  background: #4CA866;
+  color: #FFF;
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+  font-weight: normal;
+}
+.navbar_nav__buttons--secondary:hover {
+  background-color: #9DCFAB;
+  color: #454545;
+}
+
+.main_header__container {
+  clear: left;
+}
+.main_header__img {
+  background-image: url("../images/img-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  padding-top: 5rem;
+}
 /*
  * 
  * Esta carpeta fue creada para componentes o módulos pequeños como por ejemplo: 

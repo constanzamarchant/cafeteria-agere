@@ -1,0 +1,21 @@
+.main_header{
+	&__container{
+		clear:left;
+	}
+	&__img{
+		background-image:url('../images/img-1.png');
+		background-position: center; 
+	  	background-repeat: no-repeat; 
+	  	background-size: cover; 
+	  	max-width: 80%;
+	  	padding-top:5rem;
+	}
+
+	&__title{
+
+	}
+
+	&__numbers{
+
+	}
+}
